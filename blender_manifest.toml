@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "preset_startup_manager"
+version = "2.5.0"
+name = "Startup Preset Manager"
+tagline = "Custom startup file creation/ hot reloading"
+maintainer = "Gruff Wright"
+type = "add-on"
+
+blender_version_min = "4.3.0"
+
+license = ['SPDX:GPL-3.0-or-later']
+
+tags = ["Pipeline", "Scene", "System"]
+
+[permissions.files]
+access = "read_write"
+reason = "The add-on saves and loads preset .blend files and scans preset directories."
